@@ -1,0 +1,57 @@
+@import url(//fonts.googleapis.com/css?family=PT+Serif|PT+Serif:b|PT+Serif:i|PT+Sans|PT+Sans:b);
+
+html {
+    min-width: 1040px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin: .3em 0 .1em 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+svg {
+  font: 12px sans-serif;
+}
+
+body {
+    background: #fcfcfa;
+    color: #333;
+    font-family: "PT Serif", serif;
+    margin: 1em auto 4em auto;
+      margin-top: 1em;
+      margin-right: auto;
+      margin-bottom: 4em;
+      margin-left: auto;
+    position: relative;
+    width: 960px;
+}
+
+#chart{
+  height: 500px;
+  width: 960px;
+}
+.node rect {
+  cursor: move;
+  fill-opacity: .7;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+  font-family: "Helvetica";
+  font-size: 14px;
+}
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+}
